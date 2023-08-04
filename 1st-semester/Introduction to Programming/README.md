@@ -4,6 +4,17 @@
 ###### Vídeos de apoio: [Playlist de IP do professor Luciano Digiampietri](https://www.youtube.com/playlist?list=PL_JAaU8k6DQWsh1mt8vwpP8YsH6Xhgq2N)
 ###### Source: <https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=ACH2001&codcur=86200&codhab=104>
 
+##Sumário
+
+1. [Introdução](#introdução)
+2. [Algoritmos](#algoritmos)
+4. [Linguagens de Alto nível e linguagens de baixo nível](#linguagens-de-alto-nível-e-linguagens-de-baixo-nível)
+5. [Linguagem C](#linguagem-c)
+6. [O Comando printf](#o-comando-printf)
+7. [Imprimindo números em C](imprimindo-numeros-em-c)
+
+
+## Introdução
 Os computadores compreendem apenas zeros e uns. Esta é a linguagem binária e essa ideia é melhor explorado na disciplina [ACH2034 - Organização e Arquitetura de Computadores I](https://github.com/bambans/ISN/blob/main/3rd-semester/Computer%20Organization%20and%20Architecture%20I/README.md). Programar é a forma que temos de fazer com que o computador execute instruções.
 
 
