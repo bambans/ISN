@@ -4,7 +4,7 @@
 ###### Vídeos de apoio: [Playlist de IP do professor Luciano Digiampietri](https://www.youtube.com/playlist?list=PL_JAaU8k6DQWsh1mt8vwpP8YsH6Xhgq2N)
 ###### Source: <https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=ACH2001&codcur=86200&codhab=104>
 
-##Sumário
+## Sumário
 
 1. [Introdução](#introdução)
 2. [Algoritmos](#algoritmos)
