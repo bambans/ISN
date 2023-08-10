@@ -4,6 +4,13 @@
 ###### Vídeos de apoio: [Playlist de IP do professor Luciano Digiampietri](https://www.youtube.com/playlist?list=PL_JAaU8k6DQWsh1mt8vwpP8YsH6Xhgq2N)
 ###### Source: <https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=ACH2001&codcur=86200&codhab=104>
 
+//A quem se destina o repositório
+Eu fui escrevendo este readme tendo como foco principal, os estudantes de IP que tiveram pouco ou nenhum contato com programação na vida, assim como a disciplina foi projetada para ser oferecida. A ideia é que seja um material adicional e complementar aos tantos que já existem na internet, nas bibliotecas e com os professores. Escrevo tendo a perspectiva de um veterano que está continuamente aprendendo a programar, mas que teve dificuldades no inicio. Quero trazer esses conceitos de uma forma que, caso as outras explicações não tenham sido suficientes, espero que este repositório possa ajudar. 
+
+
+Apesar de o foco principal ser esse, eu sinceramente espero que seja útil para todos que busquem saber mais sobre certos conceitos aqui apresentados
+
+
 ## Sumário
 
 1. [Introdução](#introdução)
@@ -20,7 +27,7 @@ Os computadores compreendem apenas zeros e uns. Esta é a linguagem binária e e
 
 
 
-No dia a dia, nós também executamos instruções, mesmo que inconscientemente. Considere o seu deslocamento diário até a EACH: Isso envolve passos (gerais) como acordar, se arrumar, pegar o transporte coletivo, ir até a sala...embora passos como este sejam triviais, eles são como instruções que realizamos com o objeto de chegar até a EACH. A ideia de seguir passos para atingir uma meta é (indiretamente) a definição de [ALGORITMOS](#algoritmos). Assim como nós seguimos passos para chegar em determinados lugares, os computadores também precisam seguir diversas instruções para executar suas tarefas. E é em Introdução à Programação que começamos a aprender instruções que podemos pedir para o computador executar.
+No dia a dia, nós também executamos instruções, mesmo que inconscientemente. Considere o seu deslocamento diário até a EACH: Isso envolve passos (gerais) como acordar, se arrumar, pegar o transporte coletivo, ir até a sala...embora passos como este sejam triviais, eles são como instruções que realizamos com o objeto de chegar até a EACH. A ideia de seguir passos finitos para atingir uma meta é (indiretamente) a definição de [ALGORITMOS](#algoritmos). Assim como nós seguimos passos para chegar em determinados lugares, os computadores também precisam seguir diversas instruções para executar suas tarefas. E é em Introdução à Programação que começamos a aprender instruções que podemos escrever para o computador executar.
 
 ## Algoritmos
 
@@ -42,7 +49,35 @@ Abstrair é, em termos simples, diminuir a complexidade de algo (Se você está 
 **Esse processo de tradução entre linguagens de programação e linguagens binárias é explicado com detalhes no tópico "Compilador", de [ACH2034 - Organização e Arquitetura de Computadores I](https://github.com/bambans/ISN/blob/main/3rd-semester/Computer%20Organization%20and%20Architecture%20I/README.md)**
 
 ## Linguagem C
-A linguagem C é uma das Linguagens mais utilizadas para IP, pois é bem simples de entender.
+//Breve historia do C
+
+*Tópico de pesquisa sugerido: Evolução das Linguagens de programação
+
+A linguagem C foi criada por Dennis Ritchie em 1972 para reescrever de forma portável o sistema operacional UNIX, que antes era escrito em assembly. Sua estrutura e seu nome provêm de uma linguagem anterior B, que era uma simplificação da linguagem de programação BCPL, escrita em 1966.
+
+Por que C? Características da Linguagem
+A linguagem C é uma das Linguagens mais utilizadas para o ensino de Introdução à Programação. Isso se deve a alguns fatores. Vale ressaltar que a Linguagem C é base para várias outras linguagens utilizadas atualmente, como C++, C#, Java, JavaScript, PHP, Python…Outras características serão mostradas posteriormente.
+
+Existe um tópico de estudo, explorado principalmente em escolas técnicas, que é o de lógica de programação (comumente conhecido somente como “lógica”. Em resumo, essa disciplina se resume à aprender como as instruções funcionam, para depois aplicá-las em outras linguagens. E é de senso comum na área que aprender a lógica é fundamental, pois facilita a portabilidade, ou seja, se você aprende a lógica de programação, futuramente será mais fácil de aprender outras linguagens.
+
+Na faculdade, eu aprendi que, como a Linguagem C é base para outras linguagens muito usadas atualmente, é perfeitamente possivel usar ela para IP.
+
+Outras características	que agem a favor da escolha da linguagem é o fato que ela possui facilidades para acesso de baixo nível à memória, registradores e portas de E/S, e também, que a maior parte das funcionalidades da linguagem provém de vastas bibliotecas, como a biblioteca padrão C. Como visto na seção de preparação do ambiente, a linguagem também não demanda grandes recursos. Qualquer computador simples (até mesmo os mais antigos) são capazes de serem utilizados para programar em C
+
+//Variáveis e constantes
+A ideia de variáveis e constantes na programação seguem as noções intuitivas. Quando pensamos em algo variável, pensamos em algo que muda…da mesma forma, pensar em algo constante é pensar em algo imutável.
+
+Em termos simples, um programa de computador é executado na memória RAM (isso é melhor explicado em OAC1 / SO). Variáveis são rótulos dados à pequenos espaços da memória que são alocados (reservados) para usar durante a execução de um programa. 
+
+Um exemplo mais simples: Ao fazer um programa para somar dois números, precisamos armazenar esses dois números em algum lugar da memória. Esses lugares serão justamente variáveis. Iremos pedir para o computador separar um pouquinho da memória que ele dispõe e daremos um nome à esse espaço. 
+
+Quando fazemos programas mais complexos, sempre queremos que ele seja reutilizável, as variáveis são uteis porque elas podem assumir valores diferentes em diferentes momentos.
+
+Da mesma forma, as constantes são igualmente uteis. Em alguns contextos, é interessante que existam partes de memória com valores fixos. Mais a frente, iremos explorar essa ideia, mas saibam que, na programação, existem valores que serao constantes e outros que serão variáveis .
+
+//Tipos de dados
+
+
 Vamos começar com a sintaxe básica de um programa em C. Todo programa escrito em C terá, pelo menos, as seguintes linhas de código:
 ```
 #include <stdio.h>
