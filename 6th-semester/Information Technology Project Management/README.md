@@ -8,6 +8,10 @@
 
 ##### Notas sobre as aulas do Prof. Dr. Andre Carlos Busanelli de Aquino
 
+## Sumário
+
+1. [Introdução](README.md#introdução)
+
 ## Introdução
 
 Projetos são formas de organização quando se tem começo, meio e fim, de forma racional, sobre a identificação de antecipação de problemas, encontrando a melhor sequência de atividades na redução de custo e tempo.
